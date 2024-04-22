@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    /* border: 2px solid red; */
+
+    background-image: linear-gradient(90deg, #513eff 0%, #52e5ff 100%);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.navright{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.pipe{
+    width: 1px;
+    height: 25px;
+    background: white;
+    margin-right: 20px;
+}
+.navContainer2{
+    display: flex;
+    align-items: center;
+}
+
+.navright a{
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    /* cursor: pointer; */
+}
+.navright a:hover{
+    color: #aaf2ff;
+}
+
+.appbtn{
+    background: #5284ff;
+    box-shadow: 0 10px 21px 0 rgba(38,61,145,0.26);
+    border-radius: 40px;
+    font-weight: 500;
+    /* font-family: Satoshi; */
+    /* font-weight: 500; */
+    /* font-size: 14px; */
+    /* color: #ffffff; */
+    /* letter-spacing: 0.5px; */
+    text-align: center;
+    padding: 13px 30px;
+    /* text-decoration: none; */
+}
+
+
+.homeScreenContainer{
+    /* border: 2px solid red; */
+    background-image: linear-gradient(90deg, #513eff 0%, #52e5ff 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 16px;
+    /* height: 88vh; */
+}
+.homeScreenContainer h2{
+    /* border: 2px solid red; */
+    display: block;
+    
+
+}
+
+.btnHomeScreenContainer{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-bottom: 23px;
+}
+
+
+@media (min-width: 780px) {
+    .btnHomeScreenContainer{
+        margin-bottom: 96px;
+    }}
+
+
+.btnHomeScreen{
+    /* border: 2px solid rgb(60, 234, 44); */
+    background: #ffffff;
+    box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.25);
+    border-radius: 40px;
+    color: #5284ff;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 13px 30px;
+    text-decoration: none;
+}
+
+
+.h2HomeScreen{
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    max-width: 600px;
+    padding: 0 20px;
+    margin-bottom: 25px;
+}
+
+
+@media (min-width: 780px) {
+.h2HomeScreen{
+    margin-top: 0;
+    padding: 120px 20px 0;
+    font-size: 68px;
+    margin-bottom: 55px;
+}
+}
